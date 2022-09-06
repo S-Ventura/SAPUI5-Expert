@@ -7,7 +7,8 @@
                         <Button id="HelloDialogHeader" icon="sap-icon://action" press=".onOpenDialogHeader" class="sap.ui.smallMarginEnd" />
                     </headerContent>
                     <content>
-                        <mvc:XMLView id="_IDGenXMLView" viewName="dtt.SAPUI5.view.HelloPanel" />
+                        <mvc:XMLView id="_IDGenXMLView1" viewName="dtt.SAPUI5.view.HelloPanel" />
+                        <mvc:XMLView id="_IDGenXMLView2" viewName="dtt.SAPUI5.view.InvoicesList" />
                     </content>
                 </Page>
             </pages>
